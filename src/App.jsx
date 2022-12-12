@@ -14,8 +14,9 @@ import Cliente from './Components/Cliente';
 function App()  {
   return (
    <>
-{/* <Mecanico></Mecanico> */}
 <NavScrollExample/>
+{/* <Mecanico></Mecanico> */}
+
 
 
 {/* ---------------------- */}
