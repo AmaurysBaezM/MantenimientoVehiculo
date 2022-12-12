@@ -10,13 +10,16 @@ import Mecanico from './Components/Mecanico';
 import NavScrollExample from './Components/navbarC';
 import TablaMantenimiento from './Components/TablaMantenimiento';
 import FormularioVehiculo from './Components/FormularioVehiculo';
+import TablaVehiculos from './Components/TablaVehiculos';
 
 function App()  {
   return (
    <>
-{/* <NavScrollExample/>
-<TablaMantenimiento/> */}  
-<FormularioVehiculo/>
+<NavScrollExample/>
+<TablaMantenimiento/>   
+
+<TablaVehiculos/>
+{/* <FormularioVehiculo/> */}
 {/* ---------------------- */}
    {/* <NavScrollExample/> */}
    {/* <Login/> */}
