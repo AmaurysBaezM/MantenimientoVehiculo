@@ -8,14 +8,14 @@ import { Navbar } from 'react-bootstrap';
 import Mantenimiento from './Components/Mantenimiento';
 import Mecanico from './Components/Mecanico';
 import NavScrollExample from './Components/navbarC';
-
+import TablaMantenimiento from './Components/TablaMantenimiento';
 
 function App()  {
   return (
    <>
 {/* <Mecanico></Mecanico> */}
 <NavScrollExample/>
-
+<TablaMantenimiento/>
 
 {/* ---------------------- */}
    {/* <NavScrollExample/> */}
