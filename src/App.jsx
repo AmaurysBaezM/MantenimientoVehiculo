@@ -16,17 +16,20 @@ function App()  {
   return (
    <>
 <NavScrollExample/>
-<TablaMantenimiento/>   
+{/* <TablaMantenimiento/>   
 
-<TablaVehiculos/>
-{/* <FormularioVehiculo/> */}
+<TablaVehiculos/> */}
+{/* <FormularioVehiculo/> 
 {/* ---------------------- */}
    {/* <NavScrollExample/> */}
    {/* <Login/> */}
-   {/* <Routes> */}
+   <Routes>
       {/* <Route path='/' element={ <Login/>} /> */}
-      {/* <Route path='/Home' element={<NavScrollExample/>} /> */}
-   {/* </Routes> */}
+      <Route path='/Home' element={<NavScrollExample/>} />
+      <Route path='/FormularioVehiculo' element={<FormularioVehiculo/>} />
+      <Route path='/TablaMantenimiento' element={<TablaMantenimiento/>} />
+      <Route path='/TablaVehiculos' element={<TablaVehiculos/>} />
+   </Routes>
    
    </>
   )
