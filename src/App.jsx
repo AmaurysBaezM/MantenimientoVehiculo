@@ -7,6 +7,7 @@ import { Component } from 'react';
 import { Navbar } from 'react-bootstrap';
 import Mantenimiento from './Components/Mantenimiento';
 import Mecanico from './Components/Mecanico';
+import Cliente from './Components/Cliente';
 
 
 function App()  {
