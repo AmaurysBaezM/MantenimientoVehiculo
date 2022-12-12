@@ -13,7 +13,6 @@ import TablaMantenimiento from './Components/TablaMantenimiento';
 function App()  {
   return (
    <>
-{/* <Mecanico></Mecanico> */}
 <NavScrollExample/>
 <TablaMantenimiento/>
 
