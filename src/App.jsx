@@ -7,12 +7,13 @@ import { Component } from 'react';
 import { Navbar } from 'react-bootstrap';
 import Mantenimiento from './Components/Mantenimiento';
 import Mecanico from './Components/Mecanico';
+import NavScrollExample from './Components/navbarC';
 
 
 function App()  {
   return (
    <>
-<Mecanico></Mecanico>
+<NavScrollExample/>
 
 {/* ---------------------- */}
    {/* <NavScrollExample/> */}
