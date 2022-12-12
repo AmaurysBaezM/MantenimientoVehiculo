@@ -21,6 +21,7 @@ export default function MenuPrincipal(){
             </svg>Talleres y almacen</Button>
             <Button style={{borderRadius:'0rem',textAlign:'left',marginTop:'0.2rem', paddingLeft:'5px'}}>Gestionar Maquinaria</Button>
             <Button style={{borderRadius:'0rem',textAlign:'left',marginTop:'0.2rem', paddingLeft:'5px'}}>Reportes</Button>
+           
       </Card>
     </>
 );
