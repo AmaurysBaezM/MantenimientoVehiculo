@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import BotonesMenu from './BotonesMenu';
+// import BotonesMenu from './BotonesMenu';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
