@@ -1,4 +1,5 @@
 
+// import NavScrollExample from './Components/navbar';
 import Login from './Components/login';
 import Menu from './Components/menu';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
@@ -13,7 +14,9 @@ import Cliente from './Components/Cliente';
 function App()  {
   return (
    <>
+{/* <Mecanico></Mecanico> */}
 <NavScrollExample/>
+
 
 {/* ---------------------- */}
    {/* <NavScrollExample/> */}
