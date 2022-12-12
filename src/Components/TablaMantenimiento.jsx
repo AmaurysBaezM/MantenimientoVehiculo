@@ -34,7 +34,7 @@ function TablaMantenimiento() {
                 <Dropdown.Item href="#/action-3">Cancelado</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">En espera</Dropdown.Item>
             </Dropdown.Menu>
-            </Dropdown>
+        </Dropdown>
         </tr>
         <tr>
           <td>1004</td>

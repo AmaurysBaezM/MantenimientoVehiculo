@@ -4,18 +4,19 @@ import Login from './Components/login';
 import Menu from './Components/menu';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { Component } from 'react';
-import { Navbar } from 'react-bootstrap';
+import { Form, Navbar } from 'react-bootstrap';
 import Mantenimiento from './Components/Mantenimiento';
 import Mecanico from './Components/Mecanico';
 import NavScrollExample from './Components/navbarC';
 import TablaMantenimiento from './Components/TablaMantenimiento';
+import FormularioVehiculo from './Components/FormularioVehiculo';
 
 function App()  {
   return (
    <>
-<NavScrollExample/>
-<TablaMantenimiento/>
-
+{/* <NavScrollExample/>
+<TablaMantenimiento/> */}  
+<FormularioVehiculo/>
 {/* ---------------------- */}
    {/* <NavScrollExample/> */}
    {/* <Login/> */}
