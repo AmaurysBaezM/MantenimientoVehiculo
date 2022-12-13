@@ -7,8 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import React from 'react';
-import Modal from 'react-bootstrap/Modal';
-
+import NavScrollExample from './navbarC';
 
 
 
@@ -62,14 +61,18 @@ const submitUser= async (e)=>{
                             <FloatingLabel controlId="floatingPassword" label="Password">
                                 <Form.Control type="password" placeholder="Password" required onChange={(e) => handleContra(e)}/>
                             </FloatingLabel>
-                            <Button style={{marginLeft:'8rem',marginTop:'1rem'}} variant="success" type="submit">
+                            <Button style={{marginLeft:'8rem',marginTop:'1rem'}} variant="success" type="submit" onClick={Login}>
                                 Login
                             </Button>
+                            
                         </Form>
+                        
                     </Card>
+                    {setLogin === "true" && <NavScrollExample/>}
                 </Col>
             </Row>
         </Container>
+        
 
     )}
 
