@@ -68,7 +68,7 @@ const submitUser= async (e)=>{
                         </Form>
                         
                     </Card>
-                    {setLogin === "true" && <NavScrollExample/>}
+                   
                 </Col>
             </Row>
         </Container>
