@@ -7,7 +7,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import React from 'react';
-import Modal from 'react-bootstrap/Modal';
 import NavScrollExample from './navbarC';
 
 
@@ -38,8 +37,8 @@ const submitUser= async (e)=>{
     e.preventDefault();
 
     if (IUsuario == Usuario && IContra == contra) {
-        console.log("hola")
-        setLogin("true")
+        console.log("hola");
+        setLogin("true");
     }
     
 
@@ -66,13 +65,15 @@ const submitUser= async (e)=>{
                             <Button style={{marginLeft:'8rem',marginTop:'1rem'}} variant="success" type="submit" onClick={Login}>
                                 Login
                             </Button>
-                            {setLogin === "true" && <NavScrollExample/>}
+                            
                         </Form>
                         
                     </Card>
+                    {setLogin === "true" && <NavScrollExample/>}
                 </Col>
             </Row>
         </Container>
+        
 
     )}
 
