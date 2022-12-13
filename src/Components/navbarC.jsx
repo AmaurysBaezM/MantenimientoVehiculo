@@ -25,10 +25,17 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' , paddingLeft: '800px' }}
             navbarScroll
           >
-            <Nav.Link href="/">Inicio</Nav.Link>
-            <Nav.Link href="/FormularioVehiculo">Talleres y almacen</Nav.Link>
-            <Nav.Link href="/TablaMantenimiento">Gestionar Maquinaria</Nav.Link>
-            <Nav.Link href="/TablaVehiculos">Reportes</Nav.Link>
+           <Nav.Link href="/Cliente">Cliente</Nav.Link>
+
+<Nav.Link href="/Mecanico">Mecanico</Nav.Link>
+
+<Nav.Link href="/Mantenimiento">Mantenimiento</Nav.Link>
+
+<Nav.Link href="/FormularioVehiculo">Talleres y almacen</Nav.Link>
+
+<Nav.Link href="/TablaMantenimiento">Gestionar Maquinaria</Nav.Link>
+
+<Nav.Link href="/TablaVehiculos">Reportes</Nav.Link>
           </Nav>
           <Form className="d-flex">
           </Form>
