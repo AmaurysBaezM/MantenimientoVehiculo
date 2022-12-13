@@ -17,13 +17,6 @@ import Cliente from './Components/Cliente';
 function App()  {
   return (
    <>
-
-     
-      {/* <Login/>
-
-
-      <NavScrollExample/> */}
-
       
       <Routes>
          {/* <Route path='/' element={<Login/>} /> */}
