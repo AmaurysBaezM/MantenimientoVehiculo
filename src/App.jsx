@@ -21,7 +21,7 @@ function App()  {
 
          {/* <Route path='/' element={<Login/>} /> */}
 
-         <Route path='/' element={<NavScrollExample/>} />
+         {/* <Route path='/' element={<NavScrollExample/>} /> */}
 
          <Route path='/Mantenimiento' element={<Mantenimiento/>} />
 
